@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var emblem: UIImageView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

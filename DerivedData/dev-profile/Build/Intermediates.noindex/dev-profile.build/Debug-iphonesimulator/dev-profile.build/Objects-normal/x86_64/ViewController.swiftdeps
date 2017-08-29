@@ -6,10 +6,8 @@ provides-nominal:
 provides-member:
 - ["11dev_profile14ViewControllerC", ""]
 provides-dynamic-lookup:
-- "emblem"
 - "viewDidLoad"
 depends-top-level:
-- "UIImageView"
 - "UIViewController"
 - "ViewController"
 depends-member:
@@ -34,8 +32,6 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
-- ["So8NSObjectC", "UIImageView"]
-- ["So8NSObjectC", "emblem"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So16NSObjectProtocolP", "init"]
@@ -53,8 +49,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
-- ["So11UIResponderC", "UIImageView"]
-- ["So11UIResponderC", "emblem"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
@@ -66,14 +60,10 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
-- ["So16UIViewControllerC", "UIImageView"]
-- ["So16UIViewControllerC", "emblem"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", ""]
-- ["11dev_profile14ViewControllerC", "UIImageView"]
 - ["11dev_profile14ViewControllerC", "deinit"]
-- ["11dev_profile14ViewControllerC", "emblem"]
 - ["11dev_profile14ViewControllerC", "init"]
 - ["11dev_profile14ViewControllerC", "viewDidLoad"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
@@ -125,4 +115,4 @@ depends-external:
 - "/Users/Ross/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Users/Ross/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/Ross/Downloads/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "9bdcf0020c2ce6c09ca2fff786895470"
+interface-hash: "1ae20a950309f6db10830d5df3a2c3a0"
